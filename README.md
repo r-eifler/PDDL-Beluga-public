@@ -4,7 +4,6 @@ This repository provides scripts to
 
 1. generate random Beluga problem instances 
 2. encode a Beluga problem instances in PDDL (classic and numeric)
-3. generate training data in form of state action pairs (see `training_data_generator`)
 
 ## Problem Generator
 
