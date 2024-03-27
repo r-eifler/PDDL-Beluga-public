@@ -1,0 +1,16 @@
+seeds = [1]
+
+min_num_jigs = 7
+max_num_jigs = 7
+
+min_num_racks = 3
+max_num_racks = 3
+
+# number of racks / number of parts
+min_constraint = 0.1
+max_constraint = 1
+
+# sum of rack sizes / sum pf part sizes
+rack_space_factors = [2]
+
+flights = 3

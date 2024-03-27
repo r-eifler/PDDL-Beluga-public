@@ -1,0 +1,6 @@
+encoding = "NUMERIC"
+beluga = "BELUGA_SPECIAL"
+factory = "FACTORY_SPECIAL"
+# beluga = "BELUGA_RACK"
+# factory = "FACTORY_RACK"
+features = ["TRUCK_CAPACITY", "OUTGOING_EMPTY_JIGS"]

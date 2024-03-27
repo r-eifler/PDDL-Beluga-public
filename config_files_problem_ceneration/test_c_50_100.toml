@@ -1,0 +1,14 @@
+seeds = [4,5,6]
+
+min_num_jigs = 2
+max_num_jigs = 30
+
+min_num_racks = 2
+max_num_racks = 30
+
+# number of racks / number of parts
+min_constraint = 1
+max_constraint = 0.5
+
+# sum of rack sizes / sum pf part sizes
+rack_space_factors = [2]
