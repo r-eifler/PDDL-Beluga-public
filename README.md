@@ -30,7 +30,7 @@ If no output file is specified, that the JSON in written to `stdout`.
 To generate multiple instances with increasing number of racks and jigs 
 use the script:
 
-    generate_instances.py -c config_files/test_c_20_50.toml -o <out_folder> -i <json problem folder>
+    generate_instances.py -c config_files_problem_generation/test_c_20_50.toml -o <out_folder> -i <json problem folder>
 
 
 The parameters are defined in a `toml` file.
@@ -79,7 +79,7 @@ hanger the racks and the factory. (TODO)
 
 To encode multiple instances use the script:
 
-    encode_instances.py -c config_files/small_test_encoding.toml -o <out_folder> -i <json problem folder>
+    encode_instances.py -c config_files_problem_encoding/classic_basic_encoding.toml -o <out_folder> -i <json problem folder>
 
 The encoding parameters and features are defined in a `toml` file.
 You can find examples in `config_files`.
